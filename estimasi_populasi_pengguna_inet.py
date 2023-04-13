@@ -16,4 +16,4 @@ if st.button('Estimasi populasi pengguna internet'):
     predict = model.predict(
         [[Cellular_Subscription, No_of_Internet_Users, Broadband_Subscription, Year]]
     )
-    st.write ('Estimasi populasi pengguna internet diseluruh dunia (%) : ', predict)
+    st.write ('Estimasi persentase populasi pengguna internet diseluruh dunia (%) : ', predict)
