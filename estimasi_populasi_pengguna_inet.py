@@ -8,7 +8,7 @@ st.title('Estimasi Persentase Populasi Pengguna Internet Diseluruh Dunia Tahun 1
 Cellular_Subscription = st.number_input('Input nilai langganan seluler :')
 No_of_Internet_Users = st.number_input('Input nilai jumlah pengguna internet diseluruh dunia :')
 Broadband_Subscription = st.number_input('Input nilai langganan broadband :')
-Year = st.number_input('Input tahun populasi pengguna internet :')
+Year = st.number_input('Input tahun populasi pengguna internet (1980-2020) :')
 
 predict = ''
 
