@@ -5,9 +5,9 @@ model = pickle.load(open('estimasi_populasi_pengguna_inet.sav', 'rb'))
 
 st.title('Estimasi Persentase Populasi Pengguna Internet Diseluruh Dunia Tahun 1980-2020')
 
-Cellular_Subscription = st.number_input('Input nilai langganan seluler :')
+Cellular_Subscription = st.number_input('Input nilai jumlah pelanggan layanan seluler :')
 No_of_Internet_Users = st.number_input('Input nilai jumlah pengguna internet diseluruh dunia :')
-Broadband_Subscription = st.number_input('Input nilai langganan broadband :')
+Broadband_Subscription = st.number_input('Input nilai jumlah pelanggan internet broadband :')
 Year = st.number_input('Input tahun populasi pengguna internet (1980-2020) :')
 
 predict = ''
